@@ -1,0 +1,14 @@
+void main() {
+  var a = 8;
+  var b = 9;
+  print(a + b);
+  // if the var is defined as int we can not change it into other datatype
+
+  //we can not use keywords as variables
+
+  //if we want to change the datatype we define it as dynamic
+  dynamic c = 9;
+  print(c);
+  c = "rest";
+  print(c);
+}
