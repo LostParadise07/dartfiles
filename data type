@@ -1,0 +1,27 @@
+void main() {
+   int a=4;
+  print(a);
+   double e=9.1;
+  print(e);
+  //single line string
+   String s='     asrar';
+  print(s);
+  
+  //single line string
+   String s2="asrar";
+  print(s2);
+  
+  //multi line string
+   String s3="""asrar
+                ul
+                haq""";
+  print(s3);
+  
+  // if we want to remove white spaces in single line string
+  print(s.trim());
+  
+  //check is empty
+  print(s2.isEmpty);
+  
+  print(s.toUpperCase());
+  }
