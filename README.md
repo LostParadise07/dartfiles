@@ -20,6 +20,15 @@ Before you can use this project, you need to install `maskrcnn-benchmark`. You c
 ### Installing this Project
 
 To install this project, follow these steps:
+## Installation
+
+Instructions on how to install and set up your project.
+
+### Option 1: Install `maskrcnn-benchmark`
+
+#### Prerequisites
+
+Before you can use this project, you need to install `maskrcnn-benchmark`. You can do this by following the instructions in the [official documentation](https://github.com/facebookresearch/maskrcnn-benchmark#installation). 
 
 1. Clone the repository:
 
