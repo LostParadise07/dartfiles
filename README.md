@@ -13,17 +13,6 @@ Brief description of your project.
 
 Instructions on how to install and set up your project.
 
-### Prerequisites
-
-Before you can use this project, you need to install `maskrcnn-benchmark`. You can do this by following the instructions in the [official documentation](https://github.com/facebookresearch/maskrcnn-benchmark#installation). 
-
-### Installing this Project
-
-To install this project, follow these steps:
-## Installation
-
-Instructions on how to install and set up your project.
-
 ### Option 1: Install `maskrcnn-benchmark`
 
 #### Prerequisites
@@ -42,7 +31,27 @@ cd repository
 
 pip install -r requirements.txt
 
-Once you've completed these steps, you'll be ready to use this project.
+
+### Option 2: Install Docker
+
+If you prefer to use Docker, follow these steps:
+
+1. Install Docker by following the instructions in the [official documentation](https://docs.docker.com/get-docker/).
+
+git clone https://github.com/your/repository
+
+3. Navigate to the repository:
+
+cd repository
+
+4. Build the Docker image:
+
+docker build -t your-image-name .
+
+
+Once you've completed either Option 1 or Option 2, you'll be ready to use this project.
+
+
 
 ## Usage
 
