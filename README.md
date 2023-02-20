@@ -69,7 +69,6 @@ You will be having two folders in the root directory of the project:
 - `instance`: contains your database
 
 Your directory structure should look like this:
-
 auth_app/
 ├── auth/
 │ ├── forms.py
