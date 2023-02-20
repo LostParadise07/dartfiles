@@ -67,6 +67,7 @@ This will start the app and you can access it in your web browser
 You will be having two folders in the root directory of the project:
 - `auth_app`: contains your Flask app
 - `instance`: contains your database
+## Project Directory Structure
 The directory structure for this project is as follows:
 ```bash 
 auth_app/
@@ -105,6 +106,13 @@ auth_app/
 ├── utils1.py
 └── data.db
 ```
+
+The `auth` folder contains all files related to user authentication, while the `user` folder contains files related to user management with authentication. 
+
+Both `auth/routes.py` and `user/routes.py` contain functions that are called in the main Flask application. `forms.py` files in both folders contain functions for creating forms for user input. The `models.py` file in the `user` folder contains the structure of the database.
+
+Please note that the `templates` directory contains HTML templates for rendering pages in the web application, while the `static` directory contains static files such as images, stylesheets, and JavaScript files.
+
 ## Database Management
 
 To manage the database for this project, you will need to have SQLite3 installed on your system. Once you have SQLite3 installed, you can open the database in sqlite3
