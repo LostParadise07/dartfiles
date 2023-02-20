@@ -67,7 +67,7 @@ This will start the app and you can access it in your web browser
 You will be having two folders in the root directory of the project:
 - `auth_app`: contains your Flask app
 - `instance`: contains your database
-
+The directory structure for this project is as follows:
 auth_app/
 ├── auth/
 │ ├── forms.py
@@ -103,7 +103,6 @@ auth_app/
 ├── run.py
 ├── utils1.py
 └── data.db
-
 ## Contributing
 
 Guidelines on how to contribute to your project. Include information on coding standards, how to set up a development environment, and how to submit pull requests.
