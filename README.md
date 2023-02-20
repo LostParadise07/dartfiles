@@ -105,6 +105,16 @@ auth_app/
 ├── utils1.py
 └── data.db
 ```
+## Database Management
+
+To manage the database for this project, you will need to have SQLite3 installed on your system. Once you have SQLite3 installed, you can open the database in sqlite3
+
+From here, you can perform various SQL commands to modify the data stored in the database.
+
+Please note that there will always be one user designated as the super admin, with an ID of 0. When you add the first user to the system, you will need to manually update their ID to 0 in order to designate them as the super admin.
+
+If you are not familiar with SQLite3 or SQL commands in general, we recommend reviewing relevant documentation and resources to ensure proper management of your database.
+
 ## Contributing
 
 Guidelines on how to contribute to your project. Include information on coding standards, how to set up a development environment, and how to submit pull requests.
