@@ -57,11 +57,18 @@ cd repository
 
 Once you've completed either Option 1 or Option 2, you'll be ready to use this project.
 
-
-
 ## Usage
 
 Instructions on how to use your project. Include examples and screenshots if possible.
+
+To start the app, run the following command in your terminal:
+
+python3 run.py
+
+This will start the app and you can access it in your web browser at http://localhost:5000.
+
+
+
 
 ## Contributing
 
