@@ -70,42 +70,41 @@ You will be having two folders in the root directory of the project:
 
 Your directory structure should look like this:
 
-└── auth_app/
-   ├── auth/
-   ├── forms.py
-   ├── routes.py
-   └── templates/
-       ├── login.html
-       ├── register.html
-       ├── reset_password.html
-       ├── reset_request.html
-       └── base.html
-   └── utils.py
-── static/
-   ├── bootstrap/
-   ├── js/
-   ├── iitd-logo.png
-   ├── profile_picture/
-   ├── uploads/
-   └── style.css
-── user/
-   ├── forms.py
-   ├── models.py
-   ├── routes.py
-   └── templates/
-       ├── account.html
-       ├── admin.html
-       ├── error.html
-       ├── choosefile.html
-       ├── history.html
-       ├── navbar.html
-       ├── upload.html
-       └── verify_users.html
-   └── utils.py
-└── run.py
-└── utils1.py
+auth_app/
+├── auth/
+│ ├── forms.py
+│ ├── routes.py
+│ └── templates/
+│ ├── login.html
+│ ├── register.html
+│ ├── reset_password.html
+│ ├── reset_request.html
+│ └── base.html
+│ └── utils.py
+├── static/
+│ ├── bootstrap/
+│ ├── js/
+│ ├── iitd-logo.png
+│ ├── profile_picture/
+│ ├── uploads/
+│ └── style.css
+├── user/
+│ ├── forms.py
+│ ├── models.py
+│ ├── routes.py
+│ └── templates/
+│ ├── account.html
+│ ├── admin.html
+│ ├── error.html
+│ ├── choosefile.html
+│ ├── history.html
+│ ├── navbar.html
+│ ├── upload.html
+│ └── verify_users.html
+│ └── utils.py
+├── run.py
+├── utils1.py
 └── data.db
-
 
 ## Contributing
 
