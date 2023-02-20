@@ -59,15 +59,52 @@ Once you've completed either Option 1 or Option 2, you'll be ready to use this p
 
 ## Usage
 
-Instructions on how to use your project. Include examples and screenshots if possible.
-
 To start the app, run the following command in your terminal:
 
 python3 run.py
 
-This will start the app and you can access it in your web browser at http://localhost:5000.
+This will start the app and you can access it in your web browser
+You will be having two folders in the root directory of the project:
+- `auth_app`: contains your Flask app
+- `instance`: contains your database
 
+Your directory structure should look like this:
 
+└── auth_app/
+   ├── auth/
+   ├── forms.py
+   ├── routes.py
+   └── templates/
+       ├── login.html
+       ├── register.html
+       ├── reset_password.html
+       ├── reset_request.html
+       └── base.html
+   └── utils.py
+── static/
+   ├── bootstrap/
+   ├── js/
+   ├── iitd-logo.png
+   ├── profile_picture/
+   ├── uploads/
+   └── style.css
+── user/
+   ├── forms.py
+   ├── models.py
+   ├── routes.py
+   └── templates/
+       ├── account.html
+       ├── admin.html
+       ├── error.html
+       ├── choosefile.html
+       ├── history.html
+       ├── navbar.html
+       ├── upload.html
+       └── verify_users.html
+   └── utils.py
+└── run.py
+└── utils1.py
+└── data.db
 
 
 ## Contributing
