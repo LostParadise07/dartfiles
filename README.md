@@ -105,8 +105,6 @@ auth_app/
 ├── utils1.py
 └── data.db
 
-
-
 ## Contributing
 
 Guidelines on how to contribute to your project. Include information on coding standards, how to set up a development environment, and how to submit pull requests.
