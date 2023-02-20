@@ -1,4 +1,4 @@
-# Project Name
+# LIPIKAR OCR for Indian Languages
 
 Brief description of your project.
 
@@ -40,13 +40,19 @@ If you prefer to use Docker, follow these steps:
 
 git clone https://github.com/your/repository
 
-3. Navigate to the repository:
+2. Navigate to the repository:
 
 cd repository
 
-4. Build the Docker image:
-
-docker build -t your-image-name .
+* Download trained model (contourNet_model.pth) from [here](https://csciitd-my.sharepoint.com/:f:/g/personal/ch7190150_iitd_ac_in/EvLT451TYFpAmJglzzsISJYBzvlnbMeVn4lhnJg07xM4Qw?e=PbYDTJ)
+* Run the following commands in the terminal
+    * ```docker build -t ocr_docker .```
+    * ```docker run -it --name ocr_app -v /path/to/inference:cn_infenerce (eg /home/asrar/Downloads/cn_inference:/cn_inference)  ocr_docker```
+    * ```cd cn_inference```
+    * ```export INSTALL_DIR=$PWD```
+    * ```cd $INSTALL_DIR && cd maskrcnn-benchmark && python3 setup.py build develop && cd $INSTALL_DIR```
+    * ```unset INSTALL_DIR```
+    * ```cp -r maskrcnn-benchmark/maskrcnn_benchmark .```
 
 
 Once you've completed either Option 1 or Option 2, you'll be ready to use this project.
